@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./bai7.css">
+</head>
+<style>
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    border: 1px solid black;
+    padding: 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.header{
+    background-color:rgb(37, 33, 50);
+    color: rgb(255, 255, 255);
+    width: 100%;
+}
+.camera{
+    color: rgb(255, 255, 255);
+    height: 20px;
+    width: 20px;
+    margin-top: 5px;
+}
+.main{
+    text-align: center;
+    margin: 50px;   
+}
+.btn{
+    margin: 5px;
+    padding: 2px;
+}
+button:hover.btn{
+    background-color: rgb(152, 224, 242);
+    color: rgb(255, 255, 255);
+}
+.main__one{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    padding: 20px;
+    background-color: aliceblue;
+}
+.content{
+    margin: 5px;
+    border: 1px solid white;
+    background-color: white;
+    box-shadow: 1px;
+}
+.main__two{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    padding: 20px;
+    background-color: aliceblue;
+}
+p{
+    padding: 5px;
+}
+.content__two{
+    position: relative;
+}
+.text{
+
+    position: absolute;
+    right: 20px;
+    top: 5px;
+}
+@media screen and (max-width: 750px) {
+    .main__one{display: flex;
+                flex-direction: column;}
+    .main__two{display: flex;
+        flex-direction: column;}
+    
+}
+
+</style>
+<body>
+    <div class="container">
+        <div class="header">
+            <p> <span><img class="camera" src="https://cdn-icons-png.flaticon.com/128/685/685655.png" alt=""></span>Album</p>
+        </div>
+        <div class="main">
+            <h1>Album example</h1>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, autem? </p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi, facilis officiis.</p>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <div class="buton__all">
+                <button class="btn">Main call to action</button>
+                <button class="btn">Seconnary action</button>
+            </div>
+        </div>
+        <div class="main__one">
+            <div class="content">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id omnis veniam architecto temporibus ab.</p>
+                <div class="content__two">
+                    <button class="btn">View</button>
+                    <button class="btn">Edit</button>
+                    <span class="text">9 min</span>
+                </div>
+            </div>
+            <div class="content">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id omnis veniam architecto temporibus ab.</p>
+                <div class="content__two">
+                    <button class="btn">View</button>
+                    <button class="btn">Edit</button>
+                    <span class="text">9 min</span>
+                </div>
+            </div>
+            <div class="content">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id omnis veniam architecto temporibus ab.</p>
+                <div class="content__two">
+                    <button class="btn">View</button>
+                    <button class="btn">Edit</button>
+                    <span class="text">9 min</span>
+                </div>
+            </div>
+        </div>
+        <div class="main__two">
+            <div class="content">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id omnis veniam architecto temporibus ab.</p>
+                <div class="content__two">
+                    <button class="btn">View</button>
+                    <button class="btn">Edit</button>
+                    <span class="text">9 min</span>
+                </div>
+            </div>
+            <div class="content">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id omnis veniam architecto temporibus ab.</p>
+                <div class="content__two">
+                    <button class="btn">View</button>
+                    <button class="btn">Edit</button>
+                    <span class="text">9 min</span>
+                </div>
+            </div>
+            <div class="content">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id omnis veniam architecto temporibus ab.</p>
+                <div class="content__two">
+                    <button class="btn">View</button>
+                    <button class="btn">Edit</button>
+                    <span class="text">9 min</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+    </html>

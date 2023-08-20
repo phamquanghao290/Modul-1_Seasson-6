@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Chủ - Nghe Nhạc Trực Tuyến</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .menu ul{
+            display: flex;
+            list-style: none;
+            justify-content: space-around;
+            gap: 50px;
+            
+        }
+        header {
+            background-color: #1295f3;
+            color: #fff;
+            padding: 20px;
+            text-align: left;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        h1{
+            display: flex;
+            justify-content: space-evenly;
+        }
+       
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .song-list {
+            list-style: none;
+            padding: 0;
+        }
+        .song-list li {
+            border: 1px solid #ccc;
+            margin-bottom: 10px;
+            padding: 10px;
+        }
+        .play-button {
+            background-color: #4caf50;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+        footer {
+            background-color: #1295f3;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Hao MP3</h1>
+        <div class="menu">
+            <ul>
+                <li>Trang chủ</li>
+                <li>Danh sách</li>
+                <li>Ca Sĩ</li>
+                <li>Trợ Giúp</li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="container">
+        <h2>Danh Sách Bài Hát</h2><br>
+        <ul class="song-list">
+            <li>
+                <h3>Cho em gần anh thêm chút nữa</h3>
+                <p>Nghệ Sĩ: Ca Sĩ Hương Tràm</p><br>
+                <button class="play-button">Nghe Nhạc</button>
+            </li>
+            <li>
+                <h3> Thủy triều</h3>
+                <p>Nghệ Sĩ: Ca Sĩ Quang Hào</p><br>
+                <button class="play-button">Nghe Nhạc</button>
+            </li>
+        </ul>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Nghe Nhạc Trực Tuyến</p>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Chủ - Facebook</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header {
+            background-color: #1877f2;
+            color: #fff;
+            padding: 10px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+        header h1 {
+            font-size: 24px;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            margin-left: 20px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .sidebar {
+            flex: 1;
+            margin-right: 20px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            background-color: #f0f2f5;
+        }
+        .sidebar h2 {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+        .sidebar ul {
+            list-style: none;
+            padding: 0;
+        }
+        .sidebar li {
+            margin-bottom: 10px;
+        }
+        .main-content {
+            flex: 2;
+            padding: 10px;
+            border: 1px solid #ccc;
+            background-color: #fff;
+        }
+        .post {
+            margin-bottom: 20px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            background-color: #f9f9f9;
+        }
+        .post h2 {
+            font-size: 18px;
+        }
+        .post p {
+            margin-top: 10px;
+            font-size: 16px;
+        }
+        .ads {
+            flex: 1;
+            padding: 10px;
+            border: 1px solid #ccc;
+            background-color: #f0f2f5;
+        }
+        .ads img {
+            width: 100%;
+        }
+        footer {
+            background-color: #f0f2f5;
+            padding: 10px 20px;
+            text-align: center;
+            
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Facebook</h1>
+        <a href="#">Trang Chủ</a>
+        <a href="#">Thông Báo</a>
+        <a href="#">Messenger</a>
+    </header>
+
+    <div class="container">
+        <div class="sidebar">
+            <h2>Quảng cáo</h2>
+            <ul>
+                <li>Quảng cáo 1</li>
+                <li>Quảng cáo 2</li>
+                <li>Quảng cáo 3</li>
+            </ul>
+        </div>
+
+        <div class="main-content">
+            <div class="post">
+                <h2>Người dùng 1</h2>
+                <p>Nội dung bài đăng 1</p>
+            </div>
+
+            <div class="post">
+                <h2>Người dùng 2</h2>
+                <p>Nội dung bài đăng 2</p>
+            </div>
+        </div>
+
+        <div class="ads">
+            <img src="quangcao.jpg" alt="Quảng cáo">
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Facebook</p>
+    </footer>
+</body>
+
+</html>
